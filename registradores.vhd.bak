@@ -1,0 +1,12 @@
+LIBRARY ieee;
+use ieee.std_logic_1164.all;
+ENTITY registradores IS
+	PORT(clk,load,edr2,edr1,dr0:IN STD_LOGIC;
+		fil:IN STD_LOGIC_VECTOR(3 Downto 0);
+		Sout:OUT/ STD_LOGIC_VECTOR(3 Downto 0));
+END registradores
+Architecture registra of registradores is
+SIGNAL r0,r1,r2,r3,r4,r5,r6,r7:STD_LOGIC_VECTOR(3 Downto 0);
+BEGIN
+
+END registra; 
